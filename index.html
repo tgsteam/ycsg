@@ -49,46 +49,6 @@
     <link rel="stylesheet" href="css/menu_sideslide.css">
     <link rel="stylesheet" href="css/main.css">    
     <link rel="stylesheet" href="css/responsive.css">
-    <!-- AJAX JavaScript -->
-    <script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript">
-     var getting = {
-	url:'//[xxx.xxx.xxx]?ip=[43.248.96.179]&port=[19132]',
-	dataType:'json',
-	success:function(res) {
-		console.log(res);
-		if(res.code=200){
-			$("#status").html(res.status);
-			$("#ip").html(res.ip);
-			$("#port").html(res.port);
-			$("#agreement").html(res.agreement);
-			$("#real").html(res.real);
-			$("#location").html(res.location);
-			$("#motd").html(res.motd);
-			$("#version").html(res.version);
-			$("#online").html(res.online);
-			$("#max").html(res.max);
-			$("#gamemode").html(res.gamemode);
-			$("#delay").html(res.delay);
-		}else{
-			$("#status").html(无法连接);
-			$("#ip").html(无法连接);
-			$("#port").html(无法连接);
-			$("#agreement").html(无法连接);
-			$("#real").html(无法连接);
-			$("#location").html(无法连接);
-			$("#motd").html(无法连接);
-			$("#version").html(无法连接);
-			$("#online").html(无法连接);
-			$("#max").html(无法连接);
-			$("#gamemode").html(无法连接);
-			$("#delay").html(无法连接);
-		}
-	}
-};
-//关键在这里，Ajax定时访问服务端，不断获取数据 ，这里是1秒请求一次。
-window.setInterval(function(){$.ajax(getting)},1000);
-</script>
 
     <style>
       @font-face {
@@ -182,8 +142,8 @@ window.setInterval(function(){$.ajax(getting)},1000);
               <div class="icon">
                 <i class="lnr lnr-layers"></i>
               </div>
-              <h4>综合服<b style="color: green;">[推荐]</b></h4>
-              <p>服务器地址：<b style="color: green;">be.mctripper.tk</b><br>服务器端口：<b style="color: blue;">19132</b><br>使用的是paper+geysermc互通。</p>
+              <h4>学校目标<b style="color: green;">[:)]</b></h4>
+              <p>三年超<b style="color: green;">三高</b><br>五年超<b style="color: blue;">一高</b><br>十年超外国语</p>
             </div>
           </div>
                                        <div class="mdui-table-fluid">
